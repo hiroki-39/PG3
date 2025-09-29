@@ -6,8 +6,8 @@ int main()
 {
 	//1970年時の山手線の駅名をリストでstd::stringを使用せずに管理
 	std::list<const char*> yamanotesen = { "Tokyo","Kanda","Akihabara","Okachimachi","Ueno","Uguisudani","Nippori","Tabata","Komagome",
-		"Sugamo","Otsuka","Ikebukuro","Mejiro","Takadanobaba","Shin-Okubo","Shinnzyuku","Yoyogi","Harajuku","Shibuya",
-		"Ebisu","Meguro","Gohanda","Osaki","Shinagawa","Tamachi","Hamamatsucho","shimbasi","Yurakucho" };
+		"Sugamo","Otsuka","Ikebukuro","Mejiro","Takadanobaba","Shin-Okubo","Shinjuku","Yoyogi","Harajuku","Shibuya",
+		"Ebisu","Meguro","Gotanda","Osaki","Shinagawa","Tamachi","Hamamatsucho","shimbasi","Yurakucho" };
 
 	//リストの内容を順に表示(1970年)
 	printf("1970年の山手線\n");
