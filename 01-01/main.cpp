@@ -4,7 +4,7 @@
 
 int main()
 {
-	//1970年時の山手線の駅名(英語表記)をリストでstd::stringを使用せずに管理
+	//1970年時の山手線の駅名をリストでstd::stringを使用せずに管理
 	std::list<const char*> yamanotesen = { "Tokyo","Kanda","Akihabara","Okachimachi","Ueno","Uguisudani","Nippori","Tabata","Komagome",
 		"Sugamo","Otsuka","Ikebukuro","Mejiro","Takadanobaba","Shin-Okubo","Shinnzyuku","Yoyogi","Harajuku","Shibuya",
 		"Ebisu","Meguro","Gohanda","Osaki","Shinagawa","Tamachi","Hamamatsucho","shimbasi","Yurakucho" };
