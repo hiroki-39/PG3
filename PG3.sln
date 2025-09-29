@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01-01", "01-01\01-01.vcxproj", "{CD5C79C4-0937-430F-A05D-383999EC9FC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -36,6 +38,14 @@ Global
 		{940B0FBF-AB6B-44AF-8134-4BE28980E891}.Release|x64.Build.0 = Release|x64
 		{940B0FBF-AB6B-44AF-8134-4BE28980E891}.Release|x86.ActiveCfg = Release|Win32
 		{940B0FBF-AB6B-44AF-8134-4BE28980E891}.Release|x86.Build.0 = Release|Win32
+		{CD5C79C4-0937-430F-A05D-383999EC9FC3}.Debug|x64.ActiveCfg = Debug|x64
+		{CD5C79C4-0937-430F-A05D-383999EC9FC3}.Debug|x64.Build.0 = Debug|x64
+		{CD5C79C4-0937-430F-A05D-383999EC9FC3}.Debug|x86.ActiveCfg = Debug|Win32
+		{CD5C79C4-0937-430F-A05D-383999EC9FC3}.Debug|x86.Build.0 = Debug|Win32
+		{CD5C79C4-0937-430F-A05D-383999EC9FC3}.Release|x64.ActiveCfg = Release|x64
+		{CD5C79C4-0937-430F-A05D-383999EC9FC3}.Release|x64.Build.0 = Release|x64
+		{CD5C79C4-0937-430F-A05D-383999EC9FC3}.Release|x86.ActiveCfg = Release|Win32
+		{CD5C79C4-0937-430F-A05D-383999EC9FC3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
