@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <algorithm>
 #include <string>
 #include <vector>
