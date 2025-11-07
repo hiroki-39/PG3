@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <windows.h> // Sleep() 用
+#include <windows.h>
 
 // 判定関数のプロトタイプ
 void ShowResult(int roll, int userGuess);
