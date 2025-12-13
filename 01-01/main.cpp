@@ -21,7 +21,7 @@ int main()
 	{
 		if (strcmp(*itr, "Tabata") == 0)
 		{
-			yamanotesen.insert(itr, "<Nishi-Nippori>");
+			yamanotesen.insert(itr, "Nishi-Nippori");
 			break;
 		}
 	}
@@ -39,7 +39,7 @@ int main()
 	{
 		if (strcmp(*itr, "Shinagawa") == 0)
 		{
-			yamanotesen.insert(std::next(itr), "<Takanawa Gateway>");
+			yamanotesen.insert(std::next(itr), "Takanawa Gateway");
 			break;
 		}
 	}
