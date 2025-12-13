@@ -1,16 +1,17 @@
 #include <stdio.h>
-#include<list>
+#include <list>
 #include <cstring>
 
 int main()
 {
 	//1970年時の山手線の駅名をリストでstd::stringを使用せずに管理
-	std::list<const char*> yamanotesen = { "Tokyo","Kanda","Akihabara","Okachimachi","Ueno","Uguisudani","Nippori","Tabata","Komagome",
-		"Sugamo","Otsuka","Ikebukuro","Mejiro","Takadanobaba","Shin-Okubo","Shinjuku","Yoyogi","Harajuku","Shibuya",
-		"Ebisu","Meguro","Gotanda","Osaki","Shinagawa","Tamachi","Hamamatsucho","shimbasi","Yurakucho" };
+	std::list<const char*> yamanotesen = { "Tokyo", "Kanda", "Akihabara", "Okachimachi", "Ueno", "Uguisudani", "Nippori", "Tabata", "Komagome", 
+		 "Sugamo", "Otsuka", "Ikebukuro", "Mejiro", "Takadanobaba", "Shin-Okubo", "Shinjuku", "Yoyogi", "Harajuku", "Shibuya", 
+		 "Ebisu", "Meguro", "Gotanda", "Osaki", "Shinagawa", "Tamachi", "Hamamatsucho", "shimbasi", "Yurakucho" };
 
 	//リストの内容を順に表示(1970年)
 	printf("1970年の山手線\n");
+	
 	for (const char* station : yamanotesen)
 	{
 		printf("%s ", station);
@@ -28,7 +29,7 @@ int main()
 
 	//リストの内容を順に表示(2019年)
 	printf("\n\n2019年の山手線\n");
-	
+
 	for (const char* station : yamanotesen)
 	{
 		printf("%s ", station);
@@ -46,7 +47,7 @@ int main()
 
 	//リストの内容を順に表示(2022年)
 	printf("\n\n2022年の山手線\n");
-	
+
 	for (const char* station : yamanotesen)
 	{
 		printf("%s ", station);
