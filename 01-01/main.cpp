@@ -1,20 +1,19 @@
 #include <stdio.h>
 #include <list>
-#include <cstring>
 
 int main()
 {
 	//1970年時の山手線の駅名をリストでstd::stringを使用せずに管理
-	std::list<const char*> yamanotesen = { "Tokyo", "Kanda", "Akihabara", "Okachimachi", "Ueno", "Uguisudani", "Nippori", "Tabata", "Komagome", 
-		 "Sugamo", "Otsuka", "Ikebukuro", "Mejiro", "Takadanobaba", "Shin-Okubo", "Shinjuku", "Yoyogi", "Harajuku", "Shibuya", 
+	std::list<const char*> yamanotesen = { "Tokyo", "Kanda", "Akihabara", "Okachimachi", "Ueno", "Uguisudani", "Nippori", "Tabata", "Komagome",
+		 "Sugamo", "Otsuka", "Ikebukuro", "Mejiro", "Takadanobaba", "Shin-Okubo", "Shinjuku", "Yoyogi", "Harajuku", "Shibuya",
 		 "Ebisu", "Meguro", "Gotanda", "Osaki", "Shinagawa", "Tamachi", "Hamamatsucho", "shimbasi", "Yurakucho" };
 
 	//リストの内容を順に表示(1970年)
 	printf("1970年の山手線\n");
-	
+
 	for (const char* station : yamanotesen)
 	{
-		printf("%s ", station);
+		printf("%s\n", station);
 	}
 
 	//西日暮里駅を日暮里と田端の間に追加
@@ -32,7 +31,7 @@ int main()
 
 	for (const char* station : yamanotesen)
 	{
-		printf("%s ", station);
+		printf("%s\n", station);
 	}
 
 	//高輪ゲートウェイ駅を品川と田町の間に追加
@@ -50,7 +49,7 @@ int main()
 
 	for (const char* station : yamanotesen)
 	{
-		printf("%s ", station);
+		printf("%s\n", station);
 	}
 
 	printf("\n");
