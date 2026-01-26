@@ -34,18 +34,10 @@ int main()
 "k024g0064@g.neec.ac.jp","k024g0051@g.neec.ac.jp",
 "k024g0093@g.neec.ac.jp","k024g0024@g.neec.ac.jp", };
 
-	//表示(並び替える前)
-	for (int i = 0; i< studentNumber.size(); i++)
-	{
-		printf("%s\n", studentNumber[i].c_str());
-	}
-
-	//学籍番号順に並び替える
+	// 学籍番号順に並び替える
 	sort(studentNumber.begin(), studentNumber.end());
 	
-	printf("\n学籍番号順に並び替えました\n\n");
-	
-	//表示(並び替えた後)
+	// 表示
 	for (int i = 0; i < studentNumber.size(); i++)
 	{
 		printf("%s\n", studentNumber[i].c_str());
